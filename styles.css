@@ -138,9 +138,3 @@ dd {
   border-radius: 10px;
   border-bottom: 5px solid #AC3C0F;
 }
-
-.container {
-  max-width: 860px;
-  margin: 0 auto;
-  padding: 1rem;
-}
