@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Web Page </title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Skip navigation; Accessibility feature-->
+        <section class="skip-nav">
+            <a href="#maincontent"><small>Skip to main content</small></a>
+        </section>
+
+        <header> 
+
+            <!-- Navigation Bar -->
+            <nav>
+                <div class="main-nav">
+                    <ul class="nav">
+                        <li><a href="https://genrandom.com/cats/" target="_blank">Click here</a></li>
+                        <li><a href="https://genrandom.com/cats/" target="_blank">or here</a></li>
+                        <li><a href="https://genrandom.com/cats/" target="_blank">or here!</a></li>
+                        <li><a href="https://genrandom.com/cats/" target="_blank">Cat photos</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- Headings, etc. -->
+            <div class="tumblr">
+                <img src="tumblr.png" alt="Tumblr logo" width="150" height="150" >
+                <div class="headings">
+                    <h1> Hello! </h1>
+                    <h2> Welcome to my webpage. </h2>
+                </div>
+            </div> 
+        </header>
+
+        <main id="maincontent"> 
+            <section class="disp">
+                <!-- Section heading, paragraph and chart. -->
+                <h3> 
+                    Data-Driven Analysis of Slang
+                </h3>
+                <p> Tags on Tumblr were analysed by generating word embeddings. 
+                    The numerical proportions of the types of post subjects on Tumblr are depicted in the chart below:
+                </p>
+                <img src="graph.png" alt="Pie charts depicting topics of Tumblr posts" width="360" height="200">
+
+            </section>
+
+            
+
+            <section class="disp">
+                <!-- Form -->
+                <form action="index.html" method="post">
+                    <h3>Weekly Slang Newsletter</h3>
+                    <fieldset>
+                        <legend>Sign up to keep up with your homies!</legend>
+                        <label for="email"><small>Email:</small></label>
+                        <input type="email" id="email" name="user_mail">
+                    </fieldset>
+                    <button type="submit">Download virus</button>
+                </form>
+            </section>
+
+        </main>
+
+        <div class="tumblr">
+            <section class="example">
+                <h3> 
+                    Some Slang for Good Measure:
+                </h3>
+                <p>Below are slang terms, and their clear definitions.</p>
+                <div style="display: flex; justify-content: space-around; font-size: large;">
+                    <dl>
+                        <dt>-BUSSIN</dt>
+                        <dd> tasty</dd>
+
+                        <dt>-SALTY</dt>
+                        <dd> bitter</dd>
+                        
+                        <dt>-CHEUGY</dt>
+                        <dd> cringy</dd>
+                    </dl>
+
+                    <dl>
+                        <dt>-RIPPED</dt>
+                        <dd> jacked</dd>
+
+                        <dt>-BAE</dt>
+                        <dd> boo</dd>
+                        
+                        <dt>-RIZZ</dt>
+                        <dd> pull</dd>
+                    </dl> 
+                </div>
+            </section>
+            <section class="example" style="width: 25%">
+                <table style="margin: 10px auto;">
+                    <caption>
+                        <h3>Employee Information</h3>
+                    </caption>
+                    <thead style="font-size: large; margin: 100px;">
+                        <tr>
+                            <th scope="col" style="margin-right: 10px;">First Name&nbsp;&nbsp;</th>
+                            <th scope="col">Last Name</th>
+                        </tr>
+                    </thead>
+                    <tr>
+                        <td>Tom</td>
+                        <td>Hanks</td>
+                    </tr>
+                    <tr>
+                        <td>Jane</td>
+                        <td>Austen</td>
+                    </tr>
+                    <tr>
+                        <td>Rick</td>
+                        <td>Astley</td>
+                    </tr>
+                </table>
+            </section> 
+        </div>
+        <footer>
+            <p>For more overzealous web pages, contact <a href="mailto:is4684@princeton.edu?Funky%20Cold%20Medina">is4684@princeton.edu</a></p>
+        </footer>
+    </body>
+</html>
