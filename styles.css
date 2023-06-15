@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    color: #271D19;
+    background: #F6F1EF;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+  }
+  a:hover {
+    color: #94563D;;
+  }
+  
+  .main-nav {
+    width: 45%;
+    background: #EC784A;
+    padding: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .nav li {
+    padding: 5px 5px 5px 5px;
+  }
+  .nav a {
+    transition: all .5s;
+  }
+  .nav a:hover {
+    color: #94563D;
+  }
+
+
+nav {
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .skip-nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: whitesmoke;
+    background: #EC784A;
+    padding: 7px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+footer {
+    width: 100%;
+    color: whitesmoke;
+    background: #EC784A;
+    padding: 5px;
+}
+
+main {
+  display: flex;
+  max-width: 1200px;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+.disp {
+  background-color: #DB9072;
+  width: 40%;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+h3 {
+  font-size: x-large;
+}
+
+button {
+  padding: 10px 10px 10px 10px;
+  color:#F6F1EF;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  background-color: #D45826;
+  text-align: center;
+  width: 30%;
+  border-radius: 5px;
+  border: 1px solid #AC3C0F;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+}
+
+input {
+  background: white;
+  border: none;
+  font-size: 16px;
+  height: auto;
+  outline: 0;
+  padding: 10px;
+  width: 75%;
+  background-color: white;
+  color: #271D19;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+fieldset {
+  border: none;
+}
+
+.tumblr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headings {
+  padding-left: 25px;
+}
+
+dd {
+  margin-bottom: 10px;
+}
+.example {
+  width: 400px;
+  background-color: #FF9D76;
+  color: #45210D;
+  padding:20px;
+  margin:20px;
+  border-radius: 10px;
+  border-bottom: 5px solid #AC3C0F;
+}
